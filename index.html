@@ -215,7 +215,7 @@
         <button class="btn secondary" onclick="logout()">Log out</button>
       </div>
 
-      <h2>Welcome, <span id="welcomeName">'Christy Earley'</span></h2>
+      <h2>Welcome, <span id="welcomeName">Christy Earley</span></h2>
 
       <div class="two-columns">
         <!-- Balances -->
@@ -322,12 +322,12 @@
       var password = document.getElementById("passwordInput").value.trim();
       var errorBox = document.getElementById("loginError");
 
-      // Hardcoded credentials (username: Therrien1122, password: CarieTherrien$!)
+      // Hardcoded credentials (username: Christy1241, password: Hellomylove$!)
       if (username === "Therrien1122" && password === "CarieTherrien$!") {
         errorBox.style.display = "none";
         document.getElementById("loginPage").style.display = "none";
         document.getElementById("dashboardPage").style.display = "flex";
-        document.getElementById("welcomeName").textContent = "Richard Wahl"; // username on dashboard
+        document.getElementById("welcomeName").textContent = "CHRISTY EARLEY"; // username on dashboard
       } else {
         errorBox.textContent = "Invalid username or password.";
         errorBox.style.display = "block";
